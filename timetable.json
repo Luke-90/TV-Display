@@ -1,7 +1,30 @@
-[
-    { "time": "08:00", "event": "Morning Briefing" },
-    { "time": "10:00", "event": "Team Meeting" },
-    { "time": "12:30", "event": "Lunch Break" },
-    { "time": "14:00", "event": "Project Review" },
-    { "time": "16:00", "event": "Wrap-up Session" }
-]
+<table>
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>08:00</td>
+            <td>Morning Briefing</td>
+        </tr>
+        <tr>
+            <td>10:00</td>
+            <td>Team Meeting</td>
+        </tr>
+        <tr>
+            <td>12:30</td>
+            <td>Lunch Break</td>
+        </tr>
+        <tr>
+            <td>14:00</td>
+            <td>Project Review</td>
+        </tr>
+        <tr>
+            <td>16:00</td>
+            <td>Wrap-up Session</td>
+        </tr>
+    </tbody>
+</table>
