@@ -1,16 +1,64 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background: #222;
-    color: white;
+    background-color: #f4f4f4;
+    color: #333;
 }
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 h1 {
+    font-size: 2.5rem;
+}
+
+/* Timetable Section */
+.timetable {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+/* Table Style for Timetable */
+table {
+    width: 100%;
+    border-collapse: collapse;
     margin-top: 20px;
 }
-.event {
+
+th, td {
+    text-align: left;
     padding: 10px;
-    border-bottom: 1px solid #555;
+    border: 1px solid #ddd;
 }
-iframe {
-    border: none;
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
