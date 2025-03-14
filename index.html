@@ -4,27 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rolling Timetable</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>  <!-- Loads JavaScript -->
 </head>
 <body>
     <h1>Rolling Timetable</h1>
-    <div id="timetable"></div>
-
-    <script>
-        function updateTimetable() {
-            fetch("timetable.json")
-            .then(response => response.json())
-            .then(data => {
-                let html = "";
-                data.forEach(slot => {
-                    html += `<div class="event"><strong>${slot.time}</strong> - ${slot.event}</div>`;
-                });
-                document.getElementById("timetable").innerHTML = html;
-            });
-        }
-
-        updateTimetable();
-        setInterval(updateTimetable, 60000); // Refresh every 60 seconds
-    </script>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+            </tr>
+        </thead>
+        <tbody id="timetable-body">
+            <!-- JavaScript will insert rows here -->
+        </tbody>
+    </table>
 </body>
 </html>
