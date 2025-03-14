@@ -1,0 +1,7 @@
+[
+    { "time": "08:00", "event": "Morning Briefing" },
+    { "time": "10:00", "event": "Team Meeting" },
+    { "time": "12:30", "event": "Lunch Break" },
+    { "time": "14:00", "event": "Project Review" },
+    { "time": "16:00", "event": "Wrap-up Session" }
+]
